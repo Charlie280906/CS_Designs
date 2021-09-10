@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <title>CS_Designs</title>
 </head>
 <body>
@@ -48,6 +50,7 @@
                 <i class="uil uil-times nav_close" id="nav-close"></i>
             </div>
             <div class="nav_btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
                 <div class="nav_toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -281,10 +284,170 @@
                         </div>
                     </div>
                 </div>
-                
+            </div>
+        </section>
+        <section class="project section">
+            <div class="project_bg">
+                <div class="project_container container grid">
+                    <div class="project_data">
+                        <h2 class="project_title">You have a new project?</h2>
+                        <p class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia dolorem officiis molestias sapiente commodi?</p>
+                        <a href="#contact" class="button button-flex button-white">Contact me <i class="uil uil-message project_icon"></i>
+                        </a>
+                    </div>
+                    <img src="assets/img/blob_fill.png" alt="" class="project_img">
+                </div>
+            </div>
+        </section>
+        <section class="testimonial section">
+            <h2 class="section_title">testimonial</h2>
+            <span class="section_subtitle">My client saying</span>
+            <div class="testimonial_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="testimonial_content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/img/about.png" alt="" class="testimonial_img">
+                                <div>
+                                    <h3 class="testimonial_name">Sara Smith</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maiores?</p>
+                    </div>
+                    <div class="testimonial_content  swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/img/about.png" alt="" class="testimonial_img">
+                                <div>
+                                    <h3 class="testimonial_name">Sara Smith</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maiores?</p>
+                    </div>
+                    <div class="testimonial_content  swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/img/about.png" alt="" class="testimonial_img">
+                                <div>
+                                    <h3 class="testimonial_name">Sara Smith</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maiores?</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact me</h2>
+            <span class="section_subtitle">get in touch</span>
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Call me</h3>
+                            <span class="contact_subtitle">07400920912</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Email me</h3>
+                            <span class="contact_subtitle">charliesolk28@icloud.com</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Project</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Message</label>
+                            <textarea cols="0" rows="7" class="contact_input"></textarea>
+                        </div>
+                        <div>
+                            <a href="" class="button button-flex">Send message <i class="uil uil-message button_icon"></i></a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">CS_Designs</h1>
+                    <span class="footer_subtitle">Frontend developer</span>
+                </div>
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact</a>
+                    </li>
+                </ul>
+                <div class="footer_socials">
+                    <a href="" class="footer_social" target="_blank">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="" class="footer_social" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="" class="footer_social" target="_blank">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer_copy">&#169; CS_Designs. All right reserve</p>
+        </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
